@@ -1,5 +1,60 @@
 # Changelog
 
+### [7.1.3](https://www.github.com/owl-from-hogvarts/node-gyp/compare/v7.1.2...v7.1.3) (2021-05-20)
+
+
+### Doc
+
+* add downloads badge ([#2352](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2352)) ([a5fd1f4](https://www.github.com/owl-from-hogvarts/node-gyp/commit/a5fd1f41e348a5995a3471c4613e1dcd79898995))
+* add missing `sudo` to Catalina doc ([66c0f04](https://www.github.com/owl-from-hogvarts/node-gyp/commit/66c0f0446749caa591ad841cd029b6d5b5c8da42))
+* fix v8.0.0 release date ([4b83c3d](https://www.github.com/owl-from-hogvarts/node-gyp/commit/4b83c3de7300457919d53f26d96ea9ad6f6bedd8))
+* remove redundant version info ([#2403](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2403)) ([1423670](https://www.github.com/owl-from-hogvarts/node-gyp/commit/14236709de64b100a424396b91a5115639daa0ef))
+* update macOS_Catalina.md ([#2293](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2293)) ([cc1cbce](https://www.github.com/owl-from-hogvarts/node-gyp/commit/cc1cbce056b0db0a98aa6041f9148c7d9326c531))
+* Update README.md Visual Studio Community page polski to auto ([#2371](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2371)) ([1b4697a](https://www.github.com/owl-from-hogvarts/node-gyp/commit/1b4697abf69ef574a48faf832a7098f4c6c224a5))
+* updated README.md to copy easily ([#2281](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2281)) ([6287118](https://www.github.com/owl-from-hogvarts/node-gyp/commit/6287118fc4407edfeda1d092c58f848d23bd6c2f))
+
+
+### Core
+
+* avoid changing process.config ([#2322](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2322)) ([392b776](https://www.github.com/owl-from-hogvarts/node-gyp/commit/392b7760b45af45fa958c16a4a34b873a03f2b3a))
+* drop python 2 support ([3dd2e22](https://www.github.com/owl-from-hogvarts/node-gyp/commit/3dd2e22ab405efdeeb16cab9a9bd7ac2b089eaa6))
+* drop Python 2 support in find-python.js ([#2333](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2333)) ([1bd18f3](https://www.github.com/owl-from-hogvarts/node-gyp/commit/1bd18f3e7705a5441ab1b8f22ec92e962651b39d))
+* fail gracefully if we can't find the username ([#2375](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2375)) ([fca4795](https://www.github.com/owl-from-hogvarts/node-gyp/commit/fca4795512c67dc8420aaa0d913b5b89a4b147f3))
+* fix lint error on ubuntu ([eee2ecd](https://www.github.com/owl-from-hogvarts/node-gyp/commit/eee2ecddbf111be44e17f3074564292945557ad7))
+* fix utf8 encoding ([59251a7](https://www.github.com/owl-from-hogvarts/node-gyp/commit/59251a7fddc7b6763911918955630ebcbf40b09c))
+* fixed spelling errors in comments ([067230e](https://www.github.com/owl-from-hogvarts/node-gyp/commit/067230eace0bbdea53ff132deb51f54c2ad18b1d))
+* improve comments ([7ecbf18](https://www.github.com/owl-from-hogvarts/node-gyp/commit/7ecbf180f19efaf85df577b0ffb65ef0455d1efd))
+* Improve our flake8 linting tests ([0093ec8](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0093ec8646a56856578f440b67d16ea0dafd8858))
+* log as yes/no whether build dir was created ([#2370](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2370)) ([245dee5](https://www.github.com/owl-from-hogvarts/node-gyp/commit/245dee5b62581309946872ae253226ea3a42c0e3))
+* migrate requests to fetch ([#2220](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2220)) ([e81602e](https://www.github.com/owl-from-hogvarts/node-gyp/commit/e81602ef55023cc8ffeebc5509a9a8649d60434d))
+* reinvent find-python.js script ([bb84e13](https://www.github.com/owl-from-hogvarts/node-gyp/commit/bb84e1349e07f7e9acf4af91d553b2ff4bc1daf6))
+* remove support for Python 2 ([#2300](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2300)) ([a78b584](https://www.github.com/owl-from-hogvarts/node-gyp/commit/a78b584236e92a9469f72916c55ba83e9819ddea))
+* remove unnecessary "else" ([bb10740](https://www.github.com/owl-from-hogvarts/node-gyp/commit/bb10740e061e2c5fe20b62df6c5204396b4b4a0c))
+* sync mutual dependencies with npm ([06ddde2](https://www.github.com/owl-from-hogvarts/node-gyp/commit/06ddde27f9ce96ba26d9d10b4711fbf0918826a3))
+* update gyp to v0.7.0 ([#2284](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2284)) ([9e1397c](https://www.github.com/owl-from-hogvarts/node-gyp/commit/9e1397c52e429eb96a9013622cffffda56c78632))
+* update gyp to v0.8.0 ([#2318](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2318)) ([c3c510d](https://www.github.com/owl-from-hogvarts/node-gyp/commit/c3c510d89ede3a747eb679a49254052344ed8bc3))
+* update gyp to v0.8.1 ([#2355](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2355)) ([0da2e01](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0da2e0140dbf4296d5ba7ea498fac05e74bb4bbb))
+
+
+### Tests
+
+* add test for lib/new-find-python.js ([b495205](https://www.github.com/owl-from-hogvarts/node-gyp/commit/b495205c3a6a505cea086a14d079c8bdca2bcf0f))
+* add test with utf-8 string in path ([0271a22](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0271a22c729190bdaf284173be1d03658424cef9))
+* add unit test for find-python-script.py ([d4b227c](https://www.github.com/owl-from-hogvarts/node-gyp/commit/d4b227c4a5fac075ddb7fa6b6d701893d72a07ff))
+* fix "`fs.rmSync` is not a function" for old node.js versions ([d7cafb8](https://www.github.com/owl-from-hogvarts/node-gyp/commit/d7cafb8694052b0f32baa4eb7209d778749b3c57))
+* fix quotes check on POSIX systems ([cb16fbf](https://www.github.com/owl-from-hogvarts/node-gyp/commit/cb16fbf67fa5be6f84fa45f30ffa710f4f1e9dda))
+* fix test-find-python-script.js and test-find-python.js ([017c805](https://www.github.com/owl-from-hogvarts/node-gyp/commit/017c8054a96bf9c9b1bfa5215a7e52745886f347))
+* remove python2 support in tests ([ea45c9c](https://www.github.com/owl-from-hogvarts/node-gyp/commit/ea45c9c761681b48a4c3d849325022f089b9a7d9))
+
+
+### Miscellaneous
+
+* add `release-please-action` for automated releases ([#2395](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2395)) ([07e9d7c](https://www.github.com/owl-from-hogvarts/node-gyp/commit/07e9d7c7ee80ba119ea760c635f72fd8e7efe198))
+* migrate deprecated grammar ([#2285](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2285)) ([15a5c7d](https://www.github.com/owl-from-hogvarts/node-gyp/commit/15a5c7d45b02c53d17501a30def244222e26b7af))
+* remove unnecessary comment, fix spelling errors ([0f87455](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0f8745545d5436f64ba3b2a8a091dcd4ecdffbfd))
+* update actions/setup-node to v2 ([#2302](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2302)) ([0d8a6f1](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0d8a6f1b1940dc0af549c0a3ca44a8059465e446))
+* use unix line endings ([42b196f](https://www.github.com/owl-from-hogvarts/node-gyp/commit/42b196f3ea4ced57e1b0c44cbf5c33cac596310b))
+
 ## v8.0.0 2021-04-03
 
 * [[`0d8a6f1b19`](https://github.com/nodejs/node-gyp/commit/0d8a6f1b19)] - **ci**: update actions/setup-node to v2 (#2302) (Sora Morimoto) [#2302](https://github.com/nodejs/node-gyp/pull/2302)
