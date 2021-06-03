@@ -1,5 +1,24 @@
 # Changelog
 
+### [8.1.1](https://www.github.com/owl-from-hogvarts/node-gyp/compare/v8.1.0...v8.1.1) (2021-06-03)
+
+
+### Bug Fixes
+
+* change default gyp update message ([#2420](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2420)) ([cfd12ff](https://www.github.com/owl-from-hogvarts/node-gyp/commit/cfd12ff3bb0eb4525173413ef6a94b3cd8398cad))
+* **lib:** use new `find-python-script.py` ([b1119d5](https://www.github.com/owl-from-hogvarts/node-gyp/commit/b1119d52126c1ef68bcfdbb46abc26705a1e57af))
+* **test:** use new tests with old `find-python.js` ([cceb6d9](https://www.github.com/owl-from-hogvarts/node-gyp/commit/cceb6d9c9080a0db6a89201748dd0a564feea605))
+
+
+### Core
+
+* deep-copy process.config during configure ([#2368](https://www.github.com/owl-from-hogvarts/node-gyp/issues/2368)) ([5f1a06c](https://www.github.com/owl-from-hogvarts/node-gyp/commit/5f1a06c50f3b0c3d292f64948f85a004cfcc5c87))
+
+
+### Tests
+
+* add unit test for find-python-script.py ([0f499bd](https://www.github.com/owl-from-hogvarts/node-gyp/commit/0f499bda062f2e99d743ff2b07a051b10a2e6d68))
+
 ## [8.1.0](https://www.github.com/nodejs/node-gyp/compare/v8.0.0...v8.1.0) (2021-05-28)
 
 
