@@ -45,6 +45,6 @@
   },
   "scripts": {
     "lint": "standard */*.js test/**/*.js",
-    "test": "npm run lint && tap -J --no-check-coverage --timeout=120 test/test-*"
+    "test": "npm run lint && tap -J --no-check-coverage --reporter=classic --timeout=120 test/test-*"
   }
 }
