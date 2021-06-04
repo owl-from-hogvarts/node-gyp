@@ -41,10 +41,10 @@
     "nan": "^2.14.2",
     "require-inject": "^1.4.4",
     "standard": "^14.3.4",
-    "tap": "^12.7.0"
+    "tap": "^15.0.9"
   },
   "scripts": {
     "lint": "standard */*.js test/**/*.js",
-    "test": "npm run lint && tap --timeout=120 test/test-*"
+    "test": "npm run lint && tap -J --no-check-coverage --timeout=120 test/test-*"
   }
 }
