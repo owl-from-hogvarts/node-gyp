@@ -1,5 +1,6 @@
 import sys
 import locale
+from importlib import reload
 
 try:
     reload(sys)
