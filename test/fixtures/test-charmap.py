@@ -9,6 +9,8 @@ except NameError:  # Python 3
 
 def main():
     encoding = locale.getdefaultlocale()[1]
+    print(encoding, file=sys.stderr)
+    print("Lat\u012Bna", file=sys.stderr)
     if not encoding:
         return False
 
